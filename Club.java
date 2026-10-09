@@ -43,7 +43,12 @@ public class Club
             return 0;
         }
         else {
-            int joined = 0
-        }
+            int joined = 0;
+            for (Membership member : members){
+                if (month==member.getMonth()){
+                    joined=joined+1;
+                }
+            }
+            return joined;        } 
     }
 }

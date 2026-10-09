@@ -46,6 +46,7 @@ public class Membership
     public int getMonth()
     {
         return month;
+        
     }
 
     /**
